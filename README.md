@@ -11,7 +11,7 @@ In working towards these goals, the program could collect important use cases ad
 Possible outputs from the program include:
 Document the current state of the identity ecosystem, including different applications and types of identities used in practice, as well as notable gaps where opportunities for additional technical work on identity mechanisms exist in the IETF or other venues.
 Coordinate one or more IAB workshops on identity-related topics to drive engagement between the IETF and other communities.
-Identify opportunities for relationships with other organizations working on identity technologies (e.g., OASIS, TCG, FIDO, OIDF REFEDS).
+Identify opportunities for relationships with other organizations working on identity technologies (e.g., OASIS, TCG, FIDO, OIDF, REFEDS).
 Identify potential new or existing venues within the IETF and/or IRTF to progress work in this space.
 
 References:
