@@ -1,0 +1,108 @@
+No credit card required
+102.89.33.103
+{
+    "ip": "102.89.33.103",
+    "country_code": "NG",
+    "country_name": "Nigeria",
+    "region_name": "Ogun",
+    "city_name": "Ota",
+    "latitude": 6.68867,
+    "longitude": 3.23202,
+    "zip_code": "112105",
+    "time_zone": "+01:00",
+    "asn": "29465",
+    "as": "MTN Nigeria Communication Limited",
+    "isp": "MTN Nigeria Communication Limited",
+    "domain": "mtnonline.com",
+    "net_speed": "DSL",
+    "idd_code": "234",
+    "area_code": "01",
+    "weather_station_code": "NIXX0014",
+    "weather_station_name": "Mushin",
+    "mcc": "621",
+    "mnc": "30",
+    "mobile_brand": "MTN",
+    "elevation": 61,
+    "usage_type": "MOB",
+    "address_type": "Unicast",
+    "continent": {
+        "name": "Africa",
+        "code": "AF",
+        "hemisphere": [
+            "north",
+            "east"
+        ],
+        "translation": {
+            "lang": "en",
+            "value": "Africa"
+        }
+    },
+    "district": "Ado Odo/Ota",
+    "country": {
+        "name": "Nigeria",
+        "alpha3_code": "NGA",
+        "numeric_code": 566,
+        "demonym": "Nigerians",
+        "flag": "https://cdn.ip2location.io/assets/img/flags/ng.png",
+        "capital": "Abuja",
+        "total_area": 923768,
+        "population": 206139589,
+        "currency": {
+            "code": "NGN",
+            "name": "Nigerian Naira",
+            "symbol": "\u20a6"
+        },
+        "language": {
+            "code": "EN",
+            "name": "English"
+        },
+        "tld": "ng",
+        "translation": {
+            "lang": "en",
+            "value": "Nigeria"
+        }
+    },
+    "region": {
+        "name": "Ogun",
+        "code": "NG-OG",
+        "translation": {
+            "lang": "en",
+            "value": "Ogun"
+        }
+    },
+    "city": {
+        "name": "Ota",
+        "translation": {
+            "lang": "en",
+            "value": "Ota"
+        }
+    },
+    "time_zone_info": {
+        "olson": "Africa/Lagos",
+strong> - Important text.
+<i> - Italic text.
+<em> - Emphasized text.
+<mark> - Marked text.
+<small> - Smaller text.
+<del> - Deleted text.
+<ins> - Inserted text.
+More items...
+https://www.w3schools.com › ht        "current_time": "2023-08-03T08:36:40+01:00",
+        "gmt_offset": 3600,
+        "is_dst": false,
+        "sunrise": "06:41",
+        "sunset": "19:05"
+    },
+    "geotargeting": {
+        "metro": "-"
+    },
+    "ads_category": "IAB19-6",
+    "ads_category_name": "Cell Phones",
+    "is_proxy": true,
+    "proxy": {
+        "last_seen": 18,
+        "proxy_type": "RES",
+        "threat": "-",
+        "provider": "-"
+    }
+}
