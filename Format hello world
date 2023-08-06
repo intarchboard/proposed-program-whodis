@@ -1,0 +1,61 @@
+hello IETF Logo
+  
+Re: [rfc-i] Fwd: I-D Action: draft-bormann-restatement-00.txt
+"Martin J. Dürst" <duerst@it.aoyama.ac.jp> Mon, 24 July 2023 02:54 UTCShow header
+
+I don't see any problem with using the word anti-pattern. It's well 
+established. The document should make sure that those who don't know the 
+term find the right definition/explanation easily (probably not by 
+restating it :-).
+
+One additional (tangential) point below:
+
+On 2023-07-24 03:29, Donald Eastlake wrote:
+> I can't recall hearing "anti-pattern" used in this way before and think it
+> is a confusing term we should avoid. The meaning of the "anti-" as being
+> opposed to something else is well known, as in antidisestablishmentarianism
+> (or preceding it as in antediluvian).
+
+The prefix "anti-" (from Greek, main meaning against/opposed) and
+the prefix "ante-" (from Latin, main meaning before/preceeding) are 
+spelled almost the same, but are different.
+(I had a hunch, but I had to look this up myself, too
+(hint: Add "etymology" in your search field). What may add to the 
+confusion is that both prefixes seem to originate from the same 
+Indo-European word stem.)
+
+Regards,   Martin.
+
+
+
+> So I think someone seeing this for
+> the first time will assume it means something opposed to having a pattern,
+> i.e., chaos. Seems like it would be better to use something like "bad
+> pattern" or, in this case, "malpractice", I suggest changing the draft
+> title to "The Restatement Malpractice" as something the more people will
+> easily understand.
+> 
+> Thanks,
+> Donald
+> ===============================
+>   Donald E. Eastlake 3rd   +1-508-333-2270 (cell)
+>   2386 Panoramic Circle, Apopka, FL 32703 USA
+>   d3e3e3@gmail.com
+> 
+> 
+
+[rfc-i] Fwd: I-D Action: draft-bormann-restatemen…  Carsten Bormann
+Re: [rfc-i] Fwd: I-D Action: draft-bormann-restat…  Michael Richardson
+Re: [rfc-i] Fwd: I-D Action: draft-bormann-restat…  Donald Eastlake
+Re: [rfc-i] I-D Action: draft-bormann-restatement…  Carsten Bormann
+Re: [rfc-i] Fwd: I-D Action: draft-bormann-restat…  Robert Sparks
+Re: [rfc-i] I-D Action: draft-bormann-restatement…  Carsten Bormann
+Re: [rfc-i] Fwd: I-D Action: draft-bormann-restat…  Michael Richardson
+Re: [rfc-i] I-D Action: draft-bormann-restatement…  Carsten Bormann
+Re: [rfc-i] Fwd: I-D Action: draft-bormann-restat…  Martin J. Dürst
+Re: [rfc-i] Fwd: I-D Action: draft-bormann-restat…  Paul Duffy (paduffy)
+Re: [rfc-i] I-D Action: draft-bormann-restatement…  Carsten Bormann
+Re: [rfc-i] Fwd: I-D Action: draft-bormann-restat…  Salz, Rich
+Hide Navigation Bar
+ 
+v2.18.0 | Report a Bug | By Email
