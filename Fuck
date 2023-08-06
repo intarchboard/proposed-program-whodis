@@ -1,0 +1,283 @@
+
+INTRODUCTION, paragraph 1:
+OLD:
+
+ Network Working Group                                        E. Rescorla
+ Internet-Draft                                         Network Resonance
+ Intended status:  Standards Track                       January 14, 2007
+ Expires:  July 18, 2007
+
+NEW:
+
+ Network Working Group                                        E. Rescorla
+ Internet-Draft                                         Network Resonance
+ Intended status:  Standards Track                      November 17, 2007
+ Expires:  May 20, 2008
+
+
+INTRODUCTION, paragraph 2:
+OLD:
+
+      Keying Material Extractors for Transport Layer Security (TLS)
+                   draft-rescorla-tls-extractor-00.txt
+
+NEW:
+
+      Keying Material Extractors for Transport Layer Security (TLS)
+                   draft-rescorla-tls-extractor-01.txt
+
+
+INTRODUCTION, paragraph 9:
+OLD:
+
+    This Internet-Draft will expire on July 18, 2007.
+
+NEW:
+
+    This Internet-Draft will expire on May 20, 2008.
+
+
+INTRODUCTION, paragraph 11:
+OLD:
+
+    Copyright (C) The Internet Society (2007).
+
+NEW:
+
+    Copyright (C) The IETF Trust (2007).
+
+
+Section 2., paragraph 0:
+OLD:
+
+    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . . . 3
+    2.  Conventions Used In This Document . . . . . . . . . . . . . . . 3
+    3.  Extractor Definition  . . . . . . . . . . . . . . . . . . . . . 3
+    4.  Security Considerations . . . . . . . . . . . . . . . . . . . . 4
+    5.  IANA Considerations . . . . . . . . . . . . . . . . . . . . . . 4
+    6.  References  . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+      6.1.  Normative References  . . . . . . . . . . . . . . . . . . . 4
+      6.2.  Informational References  . . . . . . . . . . . . . . . . . 5
+    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . . . 5
+    Intellectual Property and Copyright Statements  . . . . . . . . . . 6
+
+NEW:
+
+    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . . . 3
+    2.  Conventions Used In This Document . . . . . . . . . . . . . . . 3
+    3.  Signalling Extractors . . . . . . . . . . . . . . . . . . . . . 3
+    4.  Extractor Definition  . . . . . . . . . . . . . . . . . . . . . 3
+    5.  Security Considerations . . . . . . . . . . . . . . . . . . . . 4
+    6.  IANA Considerations . . . . . . . . . . . . . . . . . . . . . . 4
+    7.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . . . 5
+    8.  References  . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+      8.1.  Normative References  . . . . . . . . . . . . . . . . . . . 5
+      8.2.  Informational References  . . . . . . . . . . . . . . . . . 5
+    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . . . 5
+    Intellectual Property and Copyright Statements  . . . . . . . . . . 6
+
+
+Section 2., paragraph 2:
+OLD:
+
+ 3.  Extractor Definition
+
+NEW:
+
+ 3.  Signalling Extractors
+ 
+    Other protocols which wish to use extractors SHOULD have some way for
+    the peers to signal that an extractor will be used.  An example is a
+    TLS extension, as used in DTLS-SRTP.
+ 
+ 4.  Extractor Definition
+
+
+Section 2., paragraph 6:
+OLD:
+
+           PRF(master_secret, "EXTRACTOR" + label,
+               SecurityParameters.client_random +
+               SecurityParameters.server_random)[length]
+
+NEW:
+
+           PRF(master_secret, label,
+               SecurityParameters.client_random +
+               SecurityParameters.server_random)[length]
+
+
+Section 2., paragraph 8:
+OLD:
+
+    Label values MUST be registered via Specification Required as
+    described by RFC 2434 [2].
+
+NEW:
+
+    Label values MUST be registered via Specification Required as
+    described by RFC 2434 [2].  Note that extractor labels have the
+    potential to collide with existing PRF labels.  In order to prevent
+    this, labels SHOULD begin with "EXTRACTOR".  This is not a MUST
+    because there are existing uses which have labels which do not begin
+    with this prefix.
+
+
+Section 2., paragraph 9:
+OLD:
+
+ 4.  Security Considerations
+
+NEW:
+
+ 5.  Security Considerations
+
+
+Section 2., paragraph 11:
+OLD:
+
+ 5.  IANA Considerations
+
+NEW:
+
+ 6.  IANA Considerations
+
+
+Section 2., paragraph 12:
+OLD:
+
+    Section Section 3 requires that all extractor labels be registered
+    via 2434 Specification Required.  IANA has created a TLSExtractor
+    registry for this purpose.  Future values MUST be allocated via
+    Specification Required as described in [RFC2434].
+
+NEW:
+
+    IANA is requested to create (has created) a TLS Extractor Label
+    registry for this purpose.  The initial contents of the registry are
+    given below:
+
+
+Section 2., paragraph 13:
+OLD:
+
+ 6.  References
+
+NEW:
+
+       Value                          Reference
+       -----                          ------------
+       client finished                [RFC4346]
+       server finished                [RFC4346]
+       master secret                  [RFC4346]
+       key expansion                  [RFC4346]
+       client EAP encryption          [RFC2716]
+       ttls keying material           [draft-funk-eap-ttls-v0-01]
+
+
+Section 2., paragraph 14:
+OLD:
+
+ 6.1.  Normative References
+
+NEW:
+
+    Future values are allocated via RFC2434 Specification Required
+    policy.  The label is a string consisting of printable ASCII
+    characters.  IANA MUST also verify that one label is not a prefix of
+    any other label.  For example, labels "key" or "master secretary" are
+    forbidden.
+ 
+ 7.  Acknowledgments
+ 
+    Thanks to Pasi Eronen for valuable comments and the contents of the
+    IANA section.
+ 
+ 8.  References
+ 
+ 8.1.  Normative References
+
+
+Section 2., paragraph 20:
+OLD:
+
+ 6.2.  Informational References
+
+NEW:
+
+ 8.2.  Informational References
+
+
+Section 2., paragraph 21:
+OLD:
+
+    [6]  Rescorla, E. and D. McGrew, "Datagram Transport Layer Security
+         (DTLS) Extension to Establish Keys for  Secure Real-time
+         Transport Protocol (SRTP)", draft-mcgrew-tls-srtp-00 (work in
+         progress), June 2006.
+
+NEW:
+
+    [6]  McGrew, D. and E. Rescorla, "Datagram Transport Layer Security
+         (DTLS) Extension to Establish Keys for  Secure Real-time
+         Transport Protocol (SRTP)", draft-ietf-avt-dtls-srtp-00 (work in
+         progress), July 2007.
+
+
+Section 2., paragraph 23:
+OLD:
+
+    Eric Rescorla
+    Network Resonance
+    2483 E. Bayshore #212
+    Palo Alto, CA  94303
+    USA
+
+NEW:
+
+    Eric Rescorla
+    Network Resonance
+    2064 Edgewood Drive
+    Palo Alto, CA  94303
+    USA
+
+
+Section 2., paragraph 26:
+OLD:
+
+    Copyright (C) The Internet Society (2007).
+
+NEW:
+
+    Copyright (C) The IETF Trust (2007).
+HTML contains several elements for defining text with a special meaning.
+
+HTML <b> and <strong> Elements
+
+The HTML <b> element defines bold text,without any extra importance.
+
+<b>This text is bold</b>
+The HTML <strong> element defines textwith strong importance. The content inside is typically displayed in bold.
+
+<strong>This text is important!</stron
+
+Section 2., paragraph 28:
+OLD:
+
+    This document and the information contained herein are provided on an
+    "AS IS" basis and THE CONTRIBUTOR, THE ORGANIZATION HE/SHE REPRESENTS
+    OR IS SPONSORED BY (IF ANY), THE INTERNET SOCIETY AND THE INTERNET
+    ENGINEERING TASK FORCE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED,
+    INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE
+    INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED
+    WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+NEW:
+
+    This document and the information contained herein are provided on an
+    "AS IS" basis and THE CONTRIBUTOR, THE ORGANIZATION HE/SHE REPRESENTS
+    OR IS SPONSORED BY (IF ANY), THE INTERNET SOCIETY, THE IETF TRUST AND
+    THE INTERNET ENGINEERING TASK FORCE DISCLAIM ALL WARRANTIES, EXPRESS
+    OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF
+    THE INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED
+    WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
