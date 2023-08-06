@@ -1,0 +1,51 @@
+GBNetRange:       8.0.0.0 - 8.127.255.255
+CIDR:           8.0.0.0/9
+NetName:        LVLT-ORG-8-8
+NetHandle:      NET-8-0-0-0-1
+Parent:         NET8 (NET-8-0-0-0-0)
+NetType:        Direct Allocation
+OriginAS:
+Organization:   Level 3 Parent, LLC (LPL-141)
+RegDate:        1992-12-01
+Updated:        2018-04-23
+Ref:            https://rdap.arin.net/registry/ip/8.0.0.0
+
+
+OrgName:        Level 3 Parent, LLC
+OrgId:          LPL-141
+Address:        100 CenturyLink Drive
+City:           Monroe
+StateProv:      LA
+PostalCode:     71203
+Country:        US
+RegDate:        2018-02-06
+Updated:        2023-04-07
+Comment:        USAGE OF IP SPACE MUST COMPLY WITH OUR ACCEPTABLE USE POLICY:
+Comment:        https://www.lumen.com/en-us/about/legal/acceptable-use-policy.html
+Comment:
+Comment:        ADDRESSES COVERED BY THIS ORG-ID ARE NON-PORTABLE ANY ISP ANNOUNCING OR TRANSITING PORTIONS WITHIN OUR RANGES SHOULD NOT RELY ON PRESENTED LOA'S OR OLD WHOIS UNLESS THOSE RANGES ARE ALSO ACTIVELY DIRECTLY ANNOUNCED TO A LUMEN ASN. WITH ALL LOA'S THESE CONDITIONS APPLY:
+Comment:
+CommentProperty 	Format 	Description
+success 	Boolean 	true if the API request was successful, false if otherwise.
+order_code 	String 	An ID that can be used to track the status of your order.
+message 	String 	A confirmation that your order has been placed         1. You are permitted to route the Lumen IP prefixes listed via Public BGP to your alternate ISP from your ASN. Any other ASN originating the prefix listed is forbidden.
+Comment:        2. The Lumen IP prefixes listed can be routed via Public BGP to your alternate ISP as long as you remain an active customer with Lumen and continue to route the prefixes over at least one Lumen Internet circuit without significant traffic engineering.
+Comment:        3. Should your Internet services with Lumen be discontinued, Lumen reserves the right to have your alternate ISP terminate the routing of the Lumen IP prefixes without advanced notification, should you fail to do so.
+Comment:        4. All IP Addresses assigned or allocated by Lumen to an end-user (customer or ISP) shall be considered non-portable and will be reclaimed by Lumen upon service termination.
+Comment:        5. Lumen reserves the right to conduct audits to ensure the LOA conditions are being met.
+Comment:
+Comment:        Our looking glass is located at: https://lookingglass.centurylink.com/
+Comment:
+Comment:        For subpoena or court order please fax 844.254.5800 or refer to our Trust & Safety page:
+Comment:        https://www.lumen.com/en-us/about/legal/trust-center/trust-and-safety.html
+Comment:
+Comment:        For abuse issues, please email abuse@aup.lumen.com
+Comment:        All abuse reports MUST include:
+Comment:        * src IP
+Comment:        * dest IP (your IP)
+Comment:        * dest port
+Comment:        * Accurate date/timestamp and timezone of activity
+Comment:        * Intensity/frequency (short log extracts)
+Comment:        * Your contact details (phone and email)
+Comment:        Without these we will be unable to identify the correct owner of the IP address at that point in time.
+Ref:            https://rdap.arin.net/registry/entity/LPL-141
