@@ -1,0 +1,189 @@
+IP Geolocation API and database
+DBIP
+IP geolocation API
+and database
+The ultimate resource for IP address geolocation and network intelligence...
+ 
+8.8.8.8
+{
+  "ipAddress": "8.8.8.8",
+  "continentCode": "NA",
+  "continentName": "North America",
+  "countryCode": "US",
+  "countryName": "United States",
+  "isEuMember": false,
+  "currencyCode": "USD",
+  "currencyName": "Dollar",
+  "phonePrefix": "1",
+  "languages": [
+    "en-US",
+    "es-US",
+    "haw",
+    "fr"
+  ],
+  "stateProvCode": "CA",
+  "stateProv": "California",
+  "district": "Santa Clara",
+  "city": "Mountain View",
+  "geonameId": 5375480,
+  "zipCode": "94043",
+  "latitude": 37.4223,
+  "longitude": -122.085,
+  "gmtOffset": -7,
+  "timeZone": "America/Los_Angeles",
+  "weatherCode": "USCA0746",
+  "asNumber": 15169,
+  "asName": "GOOGLE",
+  "isp": "Google LLC",
+  "usageType": "hosting",
+  "organization": "Level 3",
+  "isCrawler": false,
+  "isProxy": false,
+  "threatLevel": "low"
+}
+Discover DB IP in a few steps
+The reference for IP address geolocation and network intelligence since 2010
+
+
+Location-aware content
+Know your visitors before they even sign in and customize their experience based on country, state, language, currency or connection speed. Using our IP geolocation tool, you can also implement geographic restrictions for your sensitive content or improve your ad targeting.
+
+
+Traffic survey
+Get insights about your core market demographics through IP geolocation, and discover new hidden opportunities and emerging trends. Add location awareness to your network security stack.
+
+
+Risk analysis
+Defend your infrastructure against cyberattacks, identify risky situations and account for originating country, proxy or Tor usage in your scoring process. Compare visitor geolocation with known customer data to detect online fraud and identity theft.
+
+OUR CUSTOMERS
+Trusted by thousands of happy customers
+
+
+
+
+
+
+
+OUR STRENGTH
+Why choose DB-IP
+
+Experience and innovation
+Since 2010 our passionate team works hard to provide the most comprehensive and accurate IP address database that has grown to more than 32 million IPv4 and IPv6 blocks.
+
+Accurate and up to date
+We aggregate data from a large number of sources and through agreements with popular ISPs. We constantly evolve our machine learning models for more accurate IP address geolocation.
+
+Ultra scalable global network
+Our server infrastructure is highly redundant and spans over multiple continents. If you need more than our standard API plans we can build your own private API infrastructure to handle any kind of load or special needs, just contact us.
+OUR FEATURES
+What we can offer
+IP Address Geolocation
+Our geolocation data set covers the whole IPv4 and IPv6 address spaces with more than 2 million unique locations in 215,000+ cities worldwide. It is interoperable with popular third party geographic services such as the Geonames open database.
+
+
+Localization
+Show your non-english speaking visitors the place names they are used to. We support country, state, district and city name localization in more than fifty languages including Chinese, Russian, Farsi, Spanish, French and live amount conversions for more than 50 currencies.
+
+Dashboard & alerts
+From your API dashboard you are able to manage your keys, watch your API usage in real-time and analyze its historical trends. You may also setup email alerts whenever you go near or over your daily quota.
+
+
+try {
+	$info = DBIP\Address::lookup($visitorIp);
+	if ($info->threatLevel === "high") {
+		header("Status: 403 Forbidden");
+		die();
+	}
+	setlocale(LC_ALL, $info->languages[0]);
+	echo sprintf(_("Hello %s !"), $info->city);
+} catch (DBIP\ServerError $e) {
+	// Invalid key or address
+	Log::Warning($e->getMessage());
+}
+Easy Integration
+It only takes a few minutes to add IP geolocation awareness to your application. Our API uses RESTful semantics supported by all major development platforms, and we offer free open-source API query libraries and CSV import tools.
+
+Threat level assessment
+Protect your web application, customer data and network infrastructure from cyber attacks. Our threat level indicator is computed in real-time from several security flags such as anonymous proxy usage or known attack sources.
+
+{
+	isCrawler: false,
+    isProxy: true,
+	proxyType: "vpn",
+    threatLevel: "high",
+    threatDetails: [
+		"anonymous-proxy",
+        "attack-source",
+		"attack-target:web"
+        "bot-name:gherran",
+        "bot-type:spam"
+	]
+}
+Ready to get started?
+Get in touch or create an account
+
+ 
+PRICING PLANS
+Discover our offer
+BASIC API
+CORE API
+EXTENDED API
+DOWNLOADS
+STARTER
+8.29 €
+PER MONTH
+2,000 - 50,000
+REQUESTS PER DAY
+API over HTTPS
+50+ languages
+256 IPs batch queries
+Single CORS domain
+Email support
+PREMIUM
+99.90 €
+PER MONTH
+200,000 - 1,000,000
+REQUESTS PER DAY
+API over HTTPS
+50+ languages
+256 IPs batch queries
+up to 5 CORS domains
+99.95% uptime guarantee
+Priority support
+ENTERPRISE
+499.90 €
+PER MONTH
+Unlimited
+REQUESTS PER DAY
+API over HTTPS
+50+ languages
+Unlimited batch queries
+Unlimited CORS domains
+99.99% uptime guarantee
+Dedicated infrastructure
+Priority support
+
+The ultimate resource for IP address geolocation and network intelligence
+
+Company
+IP Geolocation API
+IP Geolocation Database
+Developers
+Geolocation tools
+Statistics
+Customer sign-in
+Resources
+FAQ
+Tutorials
+Articles
+Browse IPs
+ASN List
+Service status
+Get in touch
+Eris Networks S.A.S
+62 boulevard Jean Mermoz
+22700 Perros-Guirec
+France
+Email contact
+© 2023 db-ip.com - Terms of service - Privacy policy - Affiliate program word
