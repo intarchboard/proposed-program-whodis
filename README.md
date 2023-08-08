@@ -9,10 +9,10 @@ This program has several high-level goals. First, the program will survey the st
 In working towards these goals, the program could collect important use cases addressed by existing identity mechanisms, discuss functional requirements (e.g., trust model, access control, support for roles, etc.) essential for these use cases, and showcase how existing identity mechanisms meet or exceed these requirements. The program could also look at ways in which identities are misused or misappropriated for solving problems for which there are better solutions. As an example, using client IP addresses as a form of identity may once have been a reasonable way to implement server-side security controls, but these lack uniqueness and reliability properties that are essential for meaningful security controls. 
 
 Possible outputs from the program include:
-Document the current state of the identity ecosystem, including different applications and types of identities used in practice, as well as notable gaps where opportunities for additional technical work on identity mechanisms exist in the IETF or other venues.
-Coordinate one or more IAB workshops on identity-related topics to drive engagement between the IETF and other communities.
-Identify opportunities for relationships with other organizations working on identity technologies (e.g., OASIS, TCG, FIDO, OIDF, REFEDS).
-Identify potential new or existing venues within the IETF and/or IRTF to progress work in this space.
+- Document the current state of the identity ecosystem, including different applications and types of identities used in practice, as well as notable gaps where opportunities for additional technical work on identity mechanisms exist in the IETF or other venues.
+- Coordinate one or more IAB workshops on identity-related topics to drive engagement between the IETF and other communities.
+- Identify opportunities for relationships with other organizations working on identity technologies (e.g., OASIS, TCG, FIDO, OIDF, REFEDS).
+- Identify potential new or existing venues within the IETF and/or IRTF to progress work in this space.
 
 References:
 - [1] https://datatracker.ietf.org/doc/html/rfc6749
