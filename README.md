@@ -4,7 +4,7 @@ Identity is a fundamental concept in both computing and human interactions. It i
 
 The identity ecosystems that support these use cases are individually and collectively vast, including classical forms of identifiers that are network end points such as email addresses, phone numbers. There are also systems for issuing certificates that have some rudimentary identity information about the owner of public keys that are are used to secure connection between entities. 
 
-The first generation of specifically self conscious identity standards emerged out of the directory wars of the 1990s and led to the develompent of [LDAP[1]](https://www.rfc-editor.org/rfc/rfc4511) and [SAML [2]](https://www.oasis-open.org/standard/saml/) and was focused on enterprise single sign on and 
+The first generation of specifically self conscious identity standards emerged out of the directory wars of the 1990s and led to the develompent of [LDAP[1]](https://www.rfc-editor.org/rfc/rfc4511) and [SAML[2]](https://www.oasis-open.org/standard/saml/) and was focused on enterprise single sign on and 
 The emergence of the consumer web led to the development of standards like the original OpenID, then development of Open Authorization [OAuth [3]](https://datatracker.ietf.org/doc/html/rfc6749) and then the next generation of OpenID Connect built on top of OAuth. 
 Decentralized Identity paradigms emerged out of fora like the [Internet Identity Workshop [4]](https://internetidentityworkshop.com/) have led to the emergence of protocols that support a three party model to exchange information about the identity of people, organizations and things inclusing [Decentralized Identifier[5]](https://www.w3.org/TR/did-core/) [Verifiable Credentials [6]](https://www.w3.org/TR/vc-data-model/). 
 
